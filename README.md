@@ -1,2 +1,2 @@
 # gradebook
-This program is designed for entering grades for a class in an excel file.
+This program is designed for entering grades for every student in a class in an excel file. Every student is a subclass of gradebook. The program runs a loop, asking user to input first letter of student's last name, then last names with matching first letetr are listed, from which user selects the student, for whom, then, grade is entered for a given quiz, or exam, which is stored in a dictionary, attendance is marked for the date of the exam, and once data is entered for all of the students it is recorded in an excel file and finally the dictionary with data on all students is serlialzed into a json and stored. 
